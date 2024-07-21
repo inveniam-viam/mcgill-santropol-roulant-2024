@@ -7,7 +7,7 @@ The input here is basically information aggregated from volunteers filling out f
 
 After cloning the repository:
 
-If you would like to run any of the Python scripts (stored in the folder duly named Airtable-Automation-Scripts), please ensure that you have all of the dependencies listed in the requirements.txt file installed with a simple ```pip install -r requirements.txt```.
+If you would like to run any of the Python scripts (stored in the folder duly named Airtable Data Extraction Scripts), please ensure that you have all of the dependencies listed in the requirements.txt file installed with a simple ```pip install -r requirements.txt```.
 
 For now, the Python scripts are to be simply run with a simple ```python3 file_name.py```.
 
