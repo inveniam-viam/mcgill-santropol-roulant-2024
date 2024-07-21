@@ -1,0 +1,7 @@
+pandas
+numpy
+pyairtable
+requests
+mysql-connector-python
+pymysql
+SQLAlchemy
