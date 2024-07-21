@@ -40,7 +40,8 @@ This folder contains 3 folders nested within. Each one of these folders and the 
 
 * Final Sample Dashboard PDF: This PDF file contains a print-friendly version of the latest dashboard that is available on Evidence.   
   **Filename**: ***Final-Evidence-Dashboard.pdf***  
-* The other files in the folder are previous prototypes of the dashboard, and are named according to the date on which they were created.
+* The other files in the folder are previous prototypes of the dashboard, and are named according to the date on which they were created (as can be seen in the wildcard referenced in the below filename).
+  **Filename**: ***Dashboard-Version-{MONTH}-{DATE}.pdf***
 
 
 ### Code Files
