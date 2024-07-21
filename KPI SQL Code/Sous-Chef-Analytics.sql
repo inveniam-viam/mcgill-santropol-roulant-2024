@@ -187,7 +187,7 @@ FROM weekly_deliveries_aggregate;
 -- Total number of deliveries completed till date (2017-present)
 
 SELECT CAST(COUNT(DISTINCT id) AS INTEGER) AS deliveries_completed_till_date
-FROM member_deliveryhistory
+FROM souschef.member_deliveryhistory;
 
 -- Summarizing delivery routes information
 
@@ -240,7 +240,7 @@ WHERE YEAR(date) = YEAR(CURRENT_DATE);
 SELECT date,
     SUM((LENGTH(REPLACE(client_id_sequence, ' ', '')) - LENGTH(REPLACE(REPLACE(client_id_sequence, ' ', ''), ',', '')) + 1)) AS meals_delivered
 FROM
-    member_deliveryhistory
+    souschef.member_deliveryhistory
 WHERE YEAR(date) = YEAR(CURRENT_DATE)
 GROUP BY 1;
 
@@ -266,7 +266,7 @@ ORDER BY 2 DESC;
 -- Listing all CLSCs clients have been referred to SR from
 
   SELECT DISTINCT REPLACE(REPLACE(work_information, '-', ''), '/', '') AS "CLSC"
-  FROM member_member
+  FROM souschef.member_member
   WHERE work_information LIKE 'CLSC%'
   ORDER BY 1 ASC;
 
