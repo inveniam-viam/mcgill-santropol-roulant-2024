@@ -18,31 +18,7 @@ NOTE: The authors will be meeting with the client separately for a hand-off meet
 
 The overall file tree for this submission package is as shown below. Each one of the folders in this tree is described in detail in the following subsections:
 
-.
-└── mcgill-santropol-roulant-2024/
-    ├── README
-    ├── PDF Documents/
-    │   ├── Volunteering App User Guides/
-    │   │   ├── Vol-App-User-Guide.pdf
-    │   │   └── Admin-Prod-App-User-Guide.pdf
-    │   ├── Technical Documentation/
-    │   │   ├── Project-Technical-Wiki.pdf
-    │   │   └── SQL-KPI-Metrics-Explainer.pdf
-    │   └── Sample Dashboard/
-    │       └── Dashboard-Sample.pdf
-    ├── Airtable Data Extraction Scripts/
-    │   ├── dim_volunteer_contact.py
-    │   ├── dim_volunteer_emergency.py
-    │   ├── dim_volunteer_reg.py
-    │   ├── fact_volunteer_central.py
-    │   └── requirements.txt
-    ├── DDL SQL Scripts/
-    │   ├── Dimension-Table-DDL.sql
-    │   └── Fact-Table-DDL.sql
-    ├── KPI SQL Code/
-    │   ├── Sous-Chef-Analytics.sql
-    │   └── Santropol-Volunteering-Analytics.sql
-    └── Evidence-Dashboard
+![File Tree](file-tree-img.png "File Tree for this Repository")
 
 ### PDF Documents
 
