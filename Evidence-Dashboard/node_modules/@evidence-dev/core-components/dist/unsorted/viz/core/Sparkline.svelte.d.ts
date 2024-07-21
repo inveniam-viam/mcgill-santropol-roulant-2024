@@ -1,0 +1,34 @@
+export const evidenceInclude: true;
+/** @typedef {typeof __propDef.props}  SparklineProps */
+/** @typedef {typeof __propDef.events}  SparklineEvents */
+/** @typedef {typeof __propDef.slots}  SparklineSlots */
+export default class Sparkline extends SvelteComponent<{
+    [x: string]: any;
+    data: any;
+    emptySet?: "warn" | "error" | "pass";
+    emptyMessage?: string;
+}, {
+    [evt: string]: CustomEvent<any>;
+}, {
+    default: {};
+}> {
+}
+export type SparklineProps = typeof __propDef.props;
+export type SparklineEvents = typeof __propDef.events;
+export type SparklineSlots = typeof __propDef.slots;
+import { SvelteComponent } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        data: any;
+        emptySet?: 'pass' | 'warn' | 'error';
+        emptyMessage?: string;
+    };
+    events: {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export {};

@@ -1,0 +1,2 @@
+export function resolveMaybePromise<T, Returns = void>(handler: (v: T, isPromise: boolean) => import("../types.js").MaybePromise<Returns>, value: import("../types.js").MaybePromise<T> | (() => import("../types.js").MaybePromise<T>), onError?: ((e: Error, isPromise: boolean) => import("../types.js").MaybePromise<Returns>) | undefined): import("../types.js").MaybePromise<Returns>;
+//# sourceMappingURL=resolveMaybePromise.d.ts.map

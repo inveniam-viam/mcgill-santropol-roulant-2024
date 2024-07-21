@@ -1,0 +1,41 @@
+/** @typedef {typeof __propDef.props}  DropdownMenuSubContentProps */
+/** @typedef {typeof __propDef.events}  DropdownMenuSubContentEvents */
+/** @typedef {typeof __propDef.slots}  DropdownMenuSubContentSlots */
+export default class DropdownMenuSubContent extends SvelteComponent<{
+    [x: string]: any;
+    class?: string;
+    transition?: any;
+    transitionConfig?: any;
+}, {
+    keydown: import("bits-ui").CustomEventHandler<KeyboardEvent, HTMLDivElement>;
+    focusout: import("bits-ui").CustomEventHandler<FocusEvent, HTMLDivElement>;
+    pointermove: import("bits-ui").CustomEventHandler<PointerEvent, HTMLDivElement>;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {
+    default: {};
+}> {
+}
+export type DropdownMenuSubContentProps = typeof __propDef.props;
+export type DropdownMenuSubContentEvents = typeof __propDef.events;
+export type DropdownMenuSubContentSlots = typeof __propDef.slots;
+import { SvelteComponent } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        class?: string | undefined | null;
+        transition?: any;
+        transitionConfig?: any;
+    };
+    events: {
+        keydown: import("bits-ui").CustomEventHandler<KeyboardEvent, HTMLDivElement>;
+        focusout: import("bits-ui").CustomEventHandler<FocusEvent, HTMLDivElement>;
+        pointermove: import("bits-ui").CustomEventHandler<PointerEvent, HTMLDivElement>;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export {};

@@ -1,0 +1,132 @@
+export const evidenceInclude: true;
+/** @typedef {typeof __propDef.props}  AreaChartProps */
+/** @typedef {typeof __propDef.events}  AreaChartEvents */
+/** @typedef {typeof __propDef.slots}  AreaChartSlots */
+export default class AreaChart extends SvelteComponent<{
+    line?: any;
+    type?: string;
+    title?: any;
+    data?: any;
+    sort?: any;
+    step?: any;
+    legend?: any;
+    x?: any;
+    emptySet?: any;
+    emptyMessage?: any;
+    colorPalette?: any;
+    echartsOptions?: any;
+    seriesOptions?: any;
+    seriesColors?: any;
+    renderer?: any;
+    connectGroup?: any;
+    printEchartsConfig?: boolean;
+    y?: any;
+    series?: any;
+    subtitle?: any;
+    xType?: any;
+    xAxisTitle?: any;
+    xBaseline?: any;
+    xTickMarks?: any;
+    xGridlines?: any;
+    xAxisLabels?: any;
+    xFmt?: any;
+    yLog?: any;
+    yLogBase?: any;
+    yAxisTitle?: any;
+    yBaseline?: any;
+    yTickMarks?: any;
+    yGridlines?: any;
+    yAxisLabels?: any;
+    yMin?: any;
+    yMax?: any;
+    yScale?: any;
+    yFmt?: any;
+    chartAreaHeight?: any;
+    fillColor?: any;
+    lineColor?: any;
+    fillOpacity?: any;
+    markers?: any;
+    markerShape?: any;
+    markerSize?: any;
+    handleMissing?: any;
+    stepPosition?: any;
+    labels?: any;
+    labelSize?: any;
+    labelPosition?: any;
+    labelColor?: any;
+    labelFmt?: any;
+    showAllLabels?: any;
+}, {
+    [evt: string]: CustomEvent<any>;
+}, {
+    default: {};
+}> {
+}
+export type AreaChartProps = typeof __propDef.props;
+export type AreaChartEvents = typeof __propDef.events;
+export type AreaChartSlots = typeof __propDef.slots;
+import { SvelteComponent } from "svelte";
+declare const __propDef: {
+    props: {
+        line?: any;
+        type?: string;
+        title?: any;
+        data?: any;
+        sort?: any;
+        step?: any;
+        legend?: any;
+        x?: any;
+        emptySet?: any;
+        emptyMessage?: any;
+        colorPalette?: any;
+        echartsOptions?: any;
+        seriesOptions?: any;
+        seriesColors?: any;
+        renderer?: any;
+        connectGroup?: any;
+        printEchartsConfig?: boolean;
+        y?: any;
+        series?: any;
+        subtitle?: any;
+        xType?: any;
+        xAxisTitle?: any;
+        xBaseline?: any;
+        xTickMarks?: any;
+        xGridlines?: any;
+        xAxisLabels?: any;
+        xFmt?: any;
+        yLog?: any;
+        yLogBase?: any;
+        yAxisTitle?: any;
+        yBaseline?: any;
+        yTickMarks?: any;
+        yGridlines?: any;
+        yAxisLabels?: any;
+        yMin?: any;
+        yMax?: any;
+        yScale?: any;
+        yFmt?: any;
+        chartAreaHeight?: any;
+        fillColor?: any;
+        lineColor?: any;
+        fillOpacity?: any;
+        markers?: any;
+        markerShape?: any;
+        markerSize?: any;
+        handleMissing?: any;
+        stepPosition?: any;
+        labels?: any;
+        labelSize?: any;
+        labelPosition?: any;
+        labelColor?: any;
+        labelFmt?: any;
+        showAllLabels?: any;
+    };
+    events: {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export {};
