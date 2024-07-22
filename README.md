@@ -1,10 +1,6 @@
-# mcgill-santropol-roulant-2024
+# Meals on Wheels Analytics
 
-## BUSA 649: Community Analytics Project
-
-## Summer 2024
-
-## Client: Santropol Roulant
+Built in a partnership between McGill University and Santropol Roulant.
 
 ## Hand-off Document
 
