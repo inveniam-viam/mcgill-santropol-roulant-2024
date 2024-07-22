@@ -31,7 +31,8 @@ This folder contains 4 folders nested within. Each one of these folders and the 
 * Project Contribution Breakdown: This is a detailed breakdown of the tasks that comprised this project, broken down by operational and functional areas. Included since Dr. Serpa wishes to see this in order to better inform his individual grading.   
   ***Filename: Project_Contribution_Breakdown.pdf***
 * Signed Statement of Work: This is merely a copy of the signed Statement of Work document that was drafted at the commencement of this project.
-  ***Filename: Signed_Statement_of_Work.pdf***
+
+    ***Filename: Signed_Statement_of_Work.pdf***
 
 #### Volunteering App User Guides
 
