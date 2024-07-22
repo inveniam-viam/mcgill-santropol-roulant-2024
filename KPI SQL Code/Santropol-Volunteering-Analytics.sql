@@ -195,7 +195,20 @@ GROUP BY 1;
         SUM(DEL_BY_PUBLIC_TRANSIT) AS del_public_transit,
         SUM(DEL_LICENSED_TO_DRIVE) AS licensed_to_drive
   FROM airtable.DIM_VOLUNTEER_DELIVERY_PREFERENCES
-  WHERE RECORD_ID IN (SELECT DISTINCT RECORD_ID FROM this_year_vols)
+  WHERE RECORD_ID IN (SELECT DISTINCT RECORD_ID FROM this_year_vols))
 
+
+
+-- Volunteer program preferences
+
+SELECT SUM(SKILLS_DATA_ENTRY) AS Data_Entry,
+       SUM(SKILLS_TRANSLATION) AS Translation,
+       SUM(SKILLS_PHOTOGRAPHY) AS Photography,
+       SUM(SKILLS_OTHER) AS Other_Skills,
+       SUM(SKILLS_GRAPHIC_DESIGN) AS Graphic_Design,
+       SUM(SKILLS_FUNDRAISING) AS Fundraising,
+       SUM(SKILLS_EVENTS) AS Event_Management
+FROM airtable.DIM_VOL_SKILLS
+WHERE RECORD_ID IN (SELECT DISTINCT RECORD_ID FROM airtable.FACT_VOL_CENTRAL WHERE YEAR(VOL_CREATED) = '${inputs.vol_year.value}')
 
 

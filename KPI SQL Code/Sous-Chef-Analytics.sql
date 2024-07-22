@@ -271,5 +271,19 @@ ORDER BY 2 DESC;
   ORDER BY 1 ASC;
 
 
+-- Lapsed Customers
 
-
+WITH ranked_deliveries AS (
+SELECT client_id,
+       order_delivery_date,
+       RANK() OVER(PARTITION BY client_id ORDER BY order_delivery_date DESC) AS delivery_date_rank
+FROM ${clients_orders_combined}),
+    ranked_deliveries_six_mo AS (
+SELECT *,
+       order_delivery_date + INTERVAL 180 DAY AS six_month_deadline
+FROM ranked_deliveries
+WHERE delivery_date_rank = 1)
+SELECT COUNT(DISTINCT client_id) AS lapsed_customers
+FROM ranked_deliveries_six_mo
+WHERE YEAR(six_month_deadline) = '${inputs.vol_year.value}'
+AND six_month_deadline < NOW();
