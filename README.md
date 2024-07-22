@@ -14,15 +14,16 @@ NOTE: The authors will be meeting with the client separately for a hand-off meet
 
 ## Contents
 
-1. [Description](##Description)  
-2. [Tech Assets](##Tech Assets and Associated URLs (if applicable))  
-3. [Installation](##Installation)  
-4. [Usage](##Usage)  
-5. [Features](##Features)  
-6. [Data Sources](##Data Sources)  
-7. [Costs Involved](##Costs Involved)  
-8. [Passwords and Credentials](##Passwords and Credentials)
-9. [Contact information](##Contact Information)
+1. [Description](#description)
+2. [Tech Assets and Associated URLs (if applicable)](#tech-assets-and-associated-urls-if-applicable)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Features](#features)
+6. [Data Sources](#data-sources)
+7. [Costs Involved](#costs-involved)
+8. [Passwords and Credentials](#passwords-and-credentials)
+9. [Contact Information](#contact-information)
+
 
 
 ## Description
@@ -144,14 +145,14 @@ The Evidence dashboard, once sources are built, is to be hosted on a server. For
 
 ## Features
 
-The main deliverable here is a dashboard that summarizes important, business-critical metrics related to the Meals on Wheels Program at Santropol Roulant. For a preview of what this would look like, please check the folder titled Sample Dashboards within the PDF Documents folder here.
+The main deliverable here is a dashboard that summarizes important, business-critical metrics related to the Meals on Wheels Program at Santropol Roulant. For a preview of what this would look like, please check the folder titled [Sample Dashboard Prototypes](https://github.com/inveniam-viam/mcgill-santropol-roulant-2024/tree/main/PDF%20Documents/Sample%20Dashboard%20Prototypes) within the [PDF Documents](https://github.com/inveniam-viam/mcgill-santropol-roulant-2024/tree/main/PDF%20Documents) folder here.
 
 ## Data Sources
 
 The two major sources of data used in this project are:
 
-*  **Airtable:** This data is queried via the PyAirtable API.*
-*  **Sous-Chef:** This data is replicated by the Roulant's fork of the fully-open source Sous-Chef MoW management software.*
+*  **Airtable:** This data is queried via the PyAirtable API.
+*  **Sous-Chef:** This data is replicated by the Roulant's fork of the fully-open source Sous-Chef MoW management software.
 
 ## Costs Involved
 
