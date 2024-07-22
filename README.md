@@ -10,11 +10,30 @@
 
 ### Authors: [Jared Balakrishnan](mailto:vishak.balakrishnan@mail.mcgill.ca), [Moiz Shaikh](mailto:moiz.shaikh@mail.mcgill.ca)
 
-Please refer to this document for a list of all artifacts related to the community project carried out by the authors during their partnership with the aforementioned client.
-
 NOTE: The authors will be meeting with the client separately for a hand-off meeting where all materials will be directly shared with the client, mainly due to underlying data being restricted under NDA. The files listed below are being submitted solely for proof of work for the academic component of this project.
 
 ## Contents
+
+1. [Description](##Description)  
+2. [Tech Assets](##Tech Assets and Associated URLs (if applicable))  
+3. [Installation](##Installation)  
+4. [Usage](##Usage)  
+5. [Features](##Features)  
+6. [Data Sources](##Data Sources)  
+7. [Costs Involved](##Costs Involved)  
+8. [Passwords and Credentials](##Passwords and Credentials)
+9. [Contact information](##Contact Information)
+
+
+## Description
+
+The Meals on Wheels Analytics project aims to unify several, disjoint sources of data and make detailed insights available to employees working at Santropol Roulant at the click of a button. 
+
+Additionally, it also aims to build better onboarding for volunteers and employees alike through the development of detailed user guides for the new web-based volunteering application that is due to go live soon.
+
+The project is being carried out as a partnership between graduate students in the Desautels Faculty of Management at McGill University and Santropol Roulant, a non-profit organization focused on building sustainable food systems.
+
+## Tech Assets and Associated URLs (if applicable)
 
 The overall file tree for this submission package is as shown below. Each one of the folders in this tree is described in detail in the following subsections:
 
@@ -113,3 +132,40 @@ Instructions to clone the GitHub repository and host the final web application a
 After cloning the repository and connecting to the MySQL database, the client can view the webpage in a browser (if using localhost). The final hosting infrastructure will be decided by the client \- this will be the ultimate link that anyone who only uses the dashboard as read-only will need to have in hand to access the dashboard as well as the associated insights.
 
 ***PLEASE NOTE THAT NO DATA FILES ARE AVAILABLE AS PART OF THE SUBMISSION MADE VIA MYCOURSES \- THIS IS BECAUSE THE CLIENT HAS MADE IT CLEAR THAT THEIR DATA IS NOT TO BE SHARED WITH ANYONE OUTSIDE OF THE PROJECT.***  
+
+
+## Installation
+
+Please refer to the folder [Airtable Data Extraction Scripts](https://github.com/inveniam-viam/mcgill-santropol-roulant-2024/tree/main/Airtable%20Data%20Extraction%20Scripts) within this repository to access very detailed, step-by-step instructions for installing all pre-requisite code components.
+
+## Usage
+
+The Evidence dashboard, once sources are built, is to be hosted on a server. For the implementation of this project, this was carried out locally since discussions are still taking place with the client as to where the final dashboard will be hosted. A URL will be made available when this is finished.
+
+## Features
+
+The main deliverable here is a dashboard that summarizes important, business-critical metrics related to the Meals on Wheels Program at Santropol Roulant. For a preview of what this would look like, please check the folder titled Sample Dashboards within the PDF Documents folder here.
+
+## Data Sources
+
+The two major sources of data used in this project are:
+
+*  **Airtable:** This data is queried via the PyAirtable API.*
+*  **Sous-Chef:** This data is replicated by the Roulant's fork of the fully-open source Sous-Chef MoW management software.*
+
+## Costs Involved
+
+No additional costs were involved in the development of this project.
+
+## Passwords and Credentials
+
+There are no passwords or credentials in this repository. All credentials are either left blank, or entered in via the use of environment variables.
+
+## **Contact Information**
+
+For any questions or concerns, please contact:
+
+* **Name:** \[Jared Balakrishnan\]  
+* **Email:** \[jared@santropolroulant.org\]  
+* **GitHub: [https://github.com/inveniam-viam](https://github.com/inveniam-viam)
+
