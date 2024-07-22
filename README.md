@@ -165,7 +165,7 @@ There are no passwords or credentials in this repository. All credentials are ei
 
 For any questions or concerns, please contact:
 
-* **Name:** \[Jared Balakrishnan\]  
-* **Email:** \[jared@santropolroulant.org\]  
-* **GitHub: [https://github.com/inveniam-viam](https://github.com/inveniam-viam)
+* **Name:** ```Jared Balakrishnan```
+* **Email:** ```jared [at] santropolroulant [dot] org```
+* **GitHub:** [inveniam-viam](https://github.com/inveniam-viam)
 
